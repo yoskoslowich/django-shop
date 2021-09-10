@@ -1,0 +1,1 @@
+Atualizar Readme: https://github.com/fabioruicci/tutorial-e-commerce-django/blob/parte-1/setup-e-catalogo/README.md
