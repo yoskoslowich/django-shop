@@ -4,6 +4,7 @@ services:
   web:
     build: .
     command: python manage.py runserver 0.0.0.0:8000
+    container_name: web
     volumes:
       - .:/code
     ports:
@@ -12,6 +13,7 @@ services:
       - db
   db:
     image: postgres:13
+    container_name: db
     environment:
       - POSTGRES_USER=postgres
       - POSTGRES_PASSWORD=postgres
